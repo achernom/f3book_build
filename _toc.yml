@@ -13,13 +13,15 @@ parts:
      - file: basico/gauss
      - file: basico/potencial
      - file: basico/expansion_multipolar
+     - file: basico/dipolos
  - caption: Conductores    
    chapters:
      - file: conductores/ideal
-     - file: conductores/laplac_poisson
+     - file: conductores/laplace_poisson
      - file: conductores/imagenes
      - file: conductores/induccion_capacidad
      - file: conductores/capacitores
+     - file: conductores/fuerza
  - caption: Dieléctricos
    chapters:
     - file: dielectricos/polarizacion_susceptibilidad 
@@ -30,3 +32,13 @@ parts:
      - file: energia/cargas_discretas
      - file: energia/distribuciones_continuas     
      - file: energia/auto_energias
+ - caption: Corriente Eléctrica
+   chapters:
+     - file: corriente/ley_ohm
+     - file: corriente/circuitos
+       sections:
+       - file: corriente/kirchoff
+       - file: corriente/mallas
+       - file: corriente/fuente_voltaje
+       - file: corriente/potencia
+       - file: corriente/thevenin
