@@ -3,42 +3,48 @@
 
 format: jb-book
 root: intro
+
 parts:
- - caption: Conceptos Básicos
+ - caption: Electrostática
+   numbered: True
    chapters:
-     - file: basico/el_comienzo
-     - file: basico/ley_coulomb
-     - file: basico/distribuciones_carga
-     - file: basico/campo_electrico
-     - file: basico/gauss
-     - file: basico/potencial
-     - file: basico/expansion_multipolar
-     - file: basico/dipolos
- - caption: Conductores    
-   chapters:
-     - file: conductores/ideal
-     - file: conductores/laplace_poisson
-     - file: conductores/imagenes
-     - file: conductores/induccion_capacidad
-     - file: conductores/capacitores
-     - file: conductores/fuerza
- - caption: Dieléctricos
-   chapters:
-    - file: dielectricos/polarizacion_susceptibilidad 
-    - file: dielectricos/materiales_lineales
-    - file: dielectricos/interfases
- - caption: Energía
-   chapters:
-     - file: energia/cargas_discretas
-     - file: energia/distribuciones_continuas     
-     - file: energia/auto_energias
- - caption: Corriente Eléctrica
-   chapters:
-     - file: corriente/ley_ohm
-     - file: corriente/circuitos
+     - file: basico/electro
        sections:
+       - file: basico/el_comienzo
+       - file: basico/ley_coulomb
+       - file: basico/distribuciones_carga
+       - file: basico/campo_electrico
+       - file: basico/gauss
+       - file: basico/potencial
+       - file: basico/expansion_multipolar
+       - file: basico/dipolos
+     - file: conductores/ideal
+       sections:
+       - file: conductores/laplace_poisson
+       - file: conductores/imagenes
+       - file: conductores/induccion_capacidad
+       - file: conductores/capacitores
+       - file: conductores/fuerza
+     - file: dielectricos/dielectricos
+       sections:  
+       - file: dielectricos/polarizacion_susceptibilidad 
+       - file: dielectricos/materiales_lineales
+       - file: dielectricos/interfases
+     - file: energia/energia
+       sections:
+       - file: energia/cargas_discretas
+       - file: energia/distribuciones_continuas     
+       - file: energia/auto_energias
+     - file: corriente/corriente
+       sections:
+       - file: corriente/ley_ohm
+       - file: corriente/circuitos
        - file: corriente/kirchoff
        - file: corriente/mallas
        - file: corriente/fuente_voltaje
        - file: corriente/potencia
        - file: corriente/thevenin
+ - caption: Magnetostática
+   chapters:
+     - file: magnetismo/magnetismo
+

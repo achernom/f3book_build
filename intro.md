@@ -1,4 +1,4 @@
-Física 3
+FISICA 3: Introducción a conceptos de electricidad y magnetismo.
 ===================================
 
 Ariel Chernomoretz
