@@ -1,7 +1,7 @@
-AST 390: Computational Astrophysics
+Física 3
 ===================================
 
-Michael Zingale
+Ariel Chernomoretz
 
 (Spring 2025)
 

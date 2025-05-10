@@ -3,8 +3,30 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: mymdfile
+parts:
+ - caption: Conceptos Básicos
+   chapters:
+     - file: basico/el_comienzo
+     - file: basico/ley_coulomb
+     - file: basico/distribuciones_carga
+     - file: basico/campo_electrico
+     - file: basico/gauss
+     - file: basico/potencial
+     - file: basico/expansion_multipolar
+ - caption: Conductores    
+   chapters:
+     - file: conductores/ideal
+     - file: conductores/laplac_poisson
+     - file: conductores/imagenes
+     - file: conductores/induccion_capacidad
+     - file: conductores/capacitores
+ - caption: Dieléctricos
+   chapters:
+    - file: dielectricos/polarizacion_susceptibilidad 
+    - file: dielectricos/materiales_lineales
+    - file: dielectricos/interfases
+ - caption: Energía
+   chapters:
+     - file: energia/cargas_discretas
+     - file: energia/distribuciones_continuas     
+     - file: energia/auto_energias
